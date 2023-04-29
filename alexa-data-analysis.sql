@@ -1,4 +1,4 @@
--- Product categories
+-- Amazon product categories
 
 SELECT distinct category
 FROM msis_class_activity_spring2022;
@@ -62,8 +62,10 @@ SELECT customer_id,
 FROM msis_class_activity_spring2022
 GROUP BY customer_id;
 
--- Products purchased over Alexa
+-- Products purchased over Alexa Voice
+
 SELECT category as "Category", COUNT(category) as "Category Count"
 FROM msis_class_activity_spring2022
 WHERE is_alexa_ordered = 1
 GROUP BY category;
+
