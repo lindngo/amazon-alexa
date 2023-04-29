@@ -5,6 +5,6 @@ Used SQL to analyze Alexa voice shopping data.
 
 ## Dataset
 
-## Data Factors
+## Dataset Factors
 
 ## Conclusion
