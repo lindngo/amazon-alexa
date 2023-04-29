@@ -1,25 +1,22 @@
--- 1a. Take a look at the readme file and familiarize yourselves with what the columns mean
-
--- 1b. Find all the categories that were purchased
+-- Product categories
 
 SELECT distinct category
 FROM msis_class_activity_spring2022;
 
--- 1c. Calculate how many products were sold in each category
+-- Number of products sold in each category
 SELECT category as "Product Category", COUNT(product_id) as "Products Sold"
 FROM msis_class_activity_spring2022
 GROUP BY category
 ORDER BY COUNT(product_id) DESC;
 
--- 1d. d. Find the orders that were cancelled or returned (Create binary variables to indicate each state)
+-- Orders that were cancelled or returned 
 
 SELECT order_id as "Order ID", binary_cancel_hour and binary_cancel_time as "Cancelled", binary_return as "Returned"
 FROM msis_class_activity_spring2022
 WHERE binary_cancel_hour OR binary_return OR binary_cancel_time = '1';
 
--- 1e. Calculate the cancelation rate, return rate and return/canceled rate for each category
+-- Calculating cancellation rate
 
--- Cancellation Rate
 SELECT 
   c.category AS "Category", 
   IFNULL(cancelled_orders.cancelled_count, 0) AS "Cancelled Orders",
@@ -34,7 +31,8 @@ FROM msis_class_activity_spring2022 as c
   ) cancelled_orders ON c.category = cancelled_orders.category
 GROUP BY c.category;
   
--- Return Rate
+-- Calculating return rate
+
 SELECT
   c.category AS "Category",
   IFNULL(r.return_orders, 0) AS "Return Orders",
@@ -49,7 +47,7 @@ FROM msis_class_activity_spring2022 as c
   ) r ON c.category = r.category
 GROUP BY c.category;
 
--- 2. Categorize households based on what they buy
+-- Categorizing households based on products purchased
 
 SELECT customer_id,
   CASE
@@ -64,7 +62,7 @@ SELECT customer_id,
 FROM msis_class_activity_spring2022
 GROUP BY customer_id;
 
--- 3a. Find what products get purchased over Alexa
+-- Products purchased over Alexa
 SELECT category as "Category", COUNT(category) as "Category Count"
 FROM msis_class_activity_spring2022
 WHERE is_alexa_ordered = 1
