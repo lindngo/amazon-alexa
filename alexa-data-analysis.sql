@@ -69,3 +69,21 @@ FROM msis_class_activity_spring2022
 WHERE is_alexa_ordered = 1
 GROUP BY category;
 
+-- Toys and Games products that were cancelled
+
+SELECT COUNT(order_id)
+FROM msis_class_activity_spring2022
+WHERE is_alexa_ordered = 1 and binary_cancel_time = 1 and category = "Toys and Games" ;
+
+-- Toys and Games products that were returned
+
+SELECT COUNT(order_id)
+FROM msis_class_activity_spring2022
+WHERE is_alexa_ordered = 1 and binary_return = 1 and category = "Toys and Games" ;
+
+-- Product purchase date/time and cancellation time
+
+SELECT order_date as "Order Date", order_hour_of_day as "Order Hour", cancel_time_stamp as "Cancellation Time"
+FROM msis_class_activity_spring2022
+WHERE is_alexa_ordered = 1 and binary_cancel_time = 1 and category = "Toys and Games";
+
