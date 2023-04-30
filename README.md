@@ -1,7 +1,7 @@
 # Amazon Shopping Data
 
 ## Overview
-Used SQL to analyze Alexa voice shopping data.
+Used SQL to analyze Alexa Voice shopping data. This dataset was created my professor in our product management course.
 
 ## Dataset
 
