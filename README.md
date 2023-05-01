@@ -13,5 +13,5 @@ Used SQL to analyze Alexa Voice shopping data. This dataset was created my profe
 Solutions:
 - Amazon confirm feature before purchasing
 - Voice recgonition
-- Verbal password
+- Giving password verbally
 - 
