@@ -5,6 +5,8 @@ For this project, I used SQL to analyze a demo dataset that contained Alexa Voic
 
 ## Dataset
 
+https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
+
 ## Dataset Factors
 
 ## Conclusion
