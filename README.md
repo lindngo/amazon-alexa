@@ -1,7 +1,7 @@
 # Amazon Shopping Data
 
 ## Overview
-For this project, I used SQL to analyze a demo dataset that contained Alexa Voice shopping data. This dataset was created my professor in our product management course.
+For this project, I used SQL to analyze a demo dataset, created by my professor for our product management course, that contained Alexa Voice shopping data. From this dataset, I wanted to draw insights on what category of products are typically bought on Amazon, what type of products households buy, and more.
 
 ## Dataset
 
