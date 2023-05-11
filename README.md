@@ -12,16 +12,16 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 - customer_id: Unique identifier of the customer
 - product_id: Unique identifer of the product
 - category: Type of product purchased
-- is_alexa_ordered: 1 if ordered through Alexa; 0 if not ordered through Alexa
+- is_alexa_ordered: 1 if ordered through Alexa; 0 if not 
 - order_time_stamp: Time of purchase
 - order_date: Date of purchase
 - order_hour_of_day: Hour of purchase
 - cancel_hour_of_day: Hour of cancellation
 - return_date: Date of return
 - cancel_time_stamp: Time of cancellation
-- binary_cancel_hour: 1 if order was cancelled; 0 of if not cancelled
+- binary_cancel_hour: 1 if order was cancelled; 0 if not 
 - binary_return: 1 if order was returned; 0 if not returned
-- binary_cancel_time: 1 if order was cancelled; 0 of if not cancelled
+- binary_cancel_time: 1 if order was cancelled; 0 if not 
 
 ## Conclusion
 
