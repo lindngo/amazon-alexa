@@ -1,7 +1,7 @@
 # Amazon Shopping Data
 
 ## Overview
-For this project, I used SQL to analyze a demo dataset, created by my professor for our product management course, that contained Alexa Voice shopping data. From this dataset, I wanted to draw insights on what category of products are typically bought on Amazon, what type of products households buy, and more.
+For this project, I used SQL to analyze a demo dataset, created for the product management course I was enrolled in. This dataset contained Alexa Voice shopping data, and I wanted to draw insights on what category of products are typically bought on Amazon, what type of products households buy, and more.
 
 ## Dataset
 
@@ -24,11 +24,12 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 - binary_cancel_time: 1 if order was cancelled; 0 if not 
 
 ## Conclusion
-To better understand the products in the dataset, I first queried the product categories. From this, we can see the main products sold are the following:
+When analyzing the Alexa ordering data, I found that the top product categories were the following: 
 
-When analyzing the Alexa data, we found that the top categories were grocery and gourmet food, home and kitchen, baby, and toys and games. We expected the first three categories to be common orders over Alexa because Alexa provides purchasing convenience for products needed in daily life. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart”.  
 
-However, we thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want, i.e. Nintendo Switch Mario Party 8 game. This led to us thinking that children are ordering toys and games over Alexa without the parents knowing. 
+I expected the first three categories to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
+
+However, I thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to us thinking that children are ordering toys and games over Alexa without the parents knowing. 
 
 When analyzing the data, we saw that the households that buy toys and games often buy more than just one toy. This indicates that there must be more than one child in the household, or that there is one child who really loves toys. 
 
