@@ -26,6 +26,69 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 ## Conclusion
 To better understand the products in the dataset, I first queried the product categories. From this, we can see the main products sold are the following:
 
+MSIS 524 | In-Class Activity #1 
+
+Purple 8 
+
+ 
+
+Q1: Write down the type of households from Hint 1 and other households you can think of. 
+
+ 
+
+Households that buy more than 3 ‘Toys and Games’ items are households with children. 
+
+Households that buy more than 3 ‘Clothing, jewelry, and shoes’ items are fashionable people or have many people in the household.  
+
+Households that buy more than 3 ‘Grocery and Gourmet Foods’ have many people to feed. 
+
+Households who buy more than 3 ‘Patio, Lawn, and Garden’ have a home with space for a backyard and/or front yard. 
+
+Households who buy more than 3 ‘Books’ have people who enjoy reading physical books. 
+
+ 
+
+Q2: Note down what is weird, what is expected and what is not from 3b. 
+
+ 
+
+When analyzing the Alexa data, we found that the top categories were grocery and gourmet food, home and kitchen, baby, and toys and games. We expected the first three categories to be common orders over Alexa because Alexa provides purchasing convenience for products needed in daily life. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart”.  
+
+ 
+
+However, we thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want, i.e. Nintendo Switch Mario Party 8 game. This led to us thinking that children are ordering toys and games over Alexa without the parents knowing. 
+
+ 
+
+Q3: Make a note of your findings from Hint 2. 
+
+ 
+
+When analyzing the data, we saw that the households that buy toys and games often buy more than just one toy. This indicates that there must be more than one child in the household, or that there is one child who really loves toys. 
+
+ 
+
+Q4: Make a note of your findings from Hint 3. 
+
+ 
+
+Looking at the cancelled orders, we noticed that the time of order was outside of school hours, specifically during the evening. This further supports our idea that children are ordering these toys and games. The cancellation of orders primarily occurs during the evening, which further supports our hypothesis that children are the ones placing these orders. However, it's also possible that parents, who may have been busy during the day, review their email in the evening and discover an incorrect or mistaken order made by their child or someone else in their household. 
+
+ 
+
+Q5: Jot down your hypothesis and the data to support your hypothesis 
+
+ 
+
+We hypothesize that children are ordering toys and games without parent permission. We analyzed the returned divided by cancellation rate and saw that this was an oddly small number. Diving deeper, we found that out of the 906 toys and games purchased over Alexa, 759 were cancelled, whereas 84 were returned. We believe that once the parents reviewed their order history/received an email confirmation of the purchase, they would realize that there were non-approved purchases. As a result, they would cancel those orders before they are shipped. 
+
+ 
+
+Q6: Jot down your hypothesis and the data to support your hypothesis. 
+
+ 
+
+We hypothesize that children order toys and games most frequently in January because after returning to school, they see/hear what their peers have gotten, and they also want those toys. Because these purchases are not approved, the parents would cancel the order when they realized what happened. We can see this in the data because most of the cancelled toys and games occur in January, which is after the holiday season.  
 
 
 
