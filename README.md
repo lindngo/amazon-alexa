@@ -24,6 +24,9 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 - binary_cancel_time: 1 if order was cancelled; 0 if not 
 
 ## Conclusion
+To better understand the products in the dataset, I first queried the product categories. From this, we can see the main products sold are the following:
+
+
 
 
 Solutions:
