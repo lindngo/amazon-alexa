@@ -26,6 +26,7 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 ## Conclusion
 When analyzing the Alexa ordering data, I found that the top product categories were the following: 
 
+https://github.com/lindngo/amazon-shopping/blob/main/product_category.png
 
 I expected the first three categories to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
 
@@ -37,7 +38,11 @@ Looking at the cancelled orders, I noticed that the time of order was outside of
 
 I hypothesize that children are ordering toys and games without parent permission. I analyzed the returned divided by cancellation rate and saw that this was an oddly small number. Diving deeper, I found that out of the 906 toys and games purchased over Alexa, 759 were cancelled, whereas 84 were returned. I believe that once the parents reviewed their order history/received an email confirmation of the purchase, they would realize that there were non-approved purchases. As a result, they would cancel those orders before they are shipped. 
 
+https://github.com/lindngo/amazon-shopping/blob/main/cancellation_rate.png
+
 I hypothesize that children order toys and games most frequently in January because after returning to school, they see/hear what their peers have gotten, and they also want those toys. Because these purchases are not approved, the parents would cancel the order when they realized what happened. I can see this in the data because most of the cancelled toys and games occur in January, which is after the holiday season.  
+
+
 
 To solve these challenges, it would be beneficial for Amazon Alexa to consider the following solutions:
 
