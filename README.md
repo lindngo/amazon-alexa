@@ -1,7 +1,7 @@
 # Amazon Alexa Shopping Data
 
 ## Overview
-For this project, I used SQL to analyze a demo dataset, created for the product management course I was enrolled in. This dataset contained Amazon Alexa shopping data, and I wanted to draw insights on what category of products are typically bought on Alexa, the number of products purchased, the cancellation and return rates, and more.
+For this project, I used SQL to analyze a demo dataset that was used in the product management course I was enrolled in. This dataset contained Amazon Alexa shopping data, and I wanted to draw insights on what category of products are typically bought on Alexa, the number of products purchased, the cancellation and return rates, and more.
 
 ## Dataset
 
@@ -28,25 +28,23 @@ When analyzing the Alexa ordering data, I found that the top product categories 
 
 ![image](https://github.com/lindngo/amazon-alexa/assets/63205351/348ccc7a-9561-474f-bb04-53381bc3fe2f)
 
-I expected Home and Kitchen, Grocery and Gourmet Food, and Baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
+I expected home and kitchen, grocery and gourmet food, and baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing more detail.
 
-However, I thought it was strange that Toys and Games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to think that children are ordering toys and games over Alexa without their parents knowing. 
+However, I thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to hypothesize that children are ordering toys and games over Alexa. 
 
-When analyzing the data, I saw that the households that buy toys and games often buy more than just one toy. This indicates that there must be more than one child in the household, or that there is one child who really loves toys. 
+Next, I calculated the cancellation and return rates for each of the product categories. 
 
-Looking at the cancelled orders, I noticed that the time of order was outside of school hours, specifically during the evening. 
+![image](https://github.com/lindngo/amazon-alexa/assets/63205351/89ab489a-bc64-4a2c-b57e-61cac778dba4)
 
-![image](https://github.com/lindngo/amazon-shopping/assets/63205351/ef99b646-0a58-47a7-96cc-7752e70d3aca)
+![image](https://github.com/lindngo/amazon-alexa/assets/63205351/75a1b83c-7332-4212-aadd-0f94c9d797d1)
 
-This further supports our idea that children are ordering these toys and games. The cancellation of orders primarily occurs during the evening, which further supports our hypothesis that children are the ones placing these orders. However, it's also possible that parents, who may have been busy during the day, review their email in the evening and discover an incorrect or mistaken order made by their child or someone else in their household. Lastly, I hypothesize that children order toys and games most frequently in January because after returning to school, they see/hear what their peers have gotten, and they also want those toys. I can see this in the data because most of the cancelled toys and games occur in January, which is after the holiday season.  
+As we can see from the tables above, the toys and games category ranks highest in cancellation rate (29.78%) but has a low return rate (3.30%) compared to the other categories. Another element of consideration to my hypothesis is that these children are ordering without the consent of their parents. The parents would review their email later to discover an unapproved order made by their child or someone else in their household. At this moment, they would cancel before the product has been shipped.
 
-Diving deeper, I found that out of the 906 toys and games purchased over Alexa, 759 were cancelled, whereas 84 were returned. 
+Looking at the cancelled orders, I noticed that the time of order was outside of school hours, specifically during the evening. This further supports my hypothesis that children are the ones placing these orders, as they are home at this time and have access to Alexa.
 
-![image](https://github.com/lindngo/amazon-shopping/assets/63205351/dc3b9294-31a1-432e-b0ce-a5a0a933e6cc)
+![image](https://github.com/lindngo/amazon-alexa/assets/63205351/11c17cb3-6138-4b92-88ec-3e123461b1c1)
 
-![image](https://github.com/lindngo/amazon-shopping/assets/63205351/c87f86b4-91a4-4a83-b007-1128d4af8401)
-
-I believe that once the parents reviewed their order history/received an email confirmation of the purchase, they would realize that there were non-approved purchases. As a result, they would cancel those orders before they are shipped. 
+Furthermore, I hypothesize that children order toys and games most frequently in January because after returning to school, they see/hear what their peers have gotten, and they also want those toys. I can see this in the data because most of the cancelled toys and games occur in January, which is after the holiday season.  
 
 To solve these challenges, it would be beneficial for Amazon Alexa to consider the following solutions:
 
