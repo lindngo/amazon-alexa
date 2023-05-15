@@ -26,7 +26,7 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 ## Conclusion
 When analyzing the Alexa ordering data, I found that the top product categories were the following: 
 
-![image](https://github.com/lindngo/amazon-shopping/assets/63205351/9fefb4b6-12c8-4680-b1b6-cdb123c21dca)
+![image](https://github.com/lindngo/amazon-alexa/assets/63205351/348ccc7a-9561-474f-bb04-53381bc3fe2f)
 
 I expected Home and Kitchen, Grocery and Gourmet Food, and Baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
 
