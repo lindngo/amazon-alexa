@@ -26,11 +26,11 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 ## Conclusion
 When analyzing the Alexa ordering data, I found that the top product categories were the following: 
 
-![image](https://github.com/lindngo/amazon-shopping/assets/63205351/ed2ca294-c0d4-4a7d-b84f-ea18b1e5e791)
+![image](https://github.com/lindngo/amazon-shopping/assets/63205351/9fefb4b6-12c8-4680-b1b6-cdb123c21dca)
 
-I expected the first three categories to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
+I expected Home and Kitchen, Grocery and Gourmet Food, and Baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing to more detail.
 
-However, I thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to think that children are ordering toys and games over Alexa without their parents knowing. 
+However, I thought it was strange that Toys and Games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to think that children are ordering toys and games over Alexa without their parents knowing. 
 
 When analyzing the data, I saw that the households that buy toys and games often buy more than just one toy. This indicates that there must be more than one child in the household, or that there is one child who really loves toys. 
 
@@ -40,11 +40,13 @@ Looking at the cancelled orders, I noticed that the time of order was outside of
 
 This further supports our idea that children are ordering these toys and games. The cancellation of orders primarily occurs during the evening, which further supports our hypothesis that children are the ones placing these orders. However, it's also possible that parents, who may have been busy during the day, review their email in the evening and discover an incorrect or mistaken order made by their child or someone else in their household. Lastly, I hypothesize that children order toys and games most frequently in January because after returning to school, they see/hear what their peers have gotten, and they also want those toys. I can see this in the data because most of the cancelled toys and games occur in January, which is after the holiday season.  
 
-Diving deeper, I found that out of the 906 toys and games purchased over Alexa, 759 were cancelled, whereas 84 were returned. I believe that once the parents reviewed their order history/received an email confirmation of the purchase, they would realize that there were non-approved purchases. As a result, they would cancel those orders before they are shipped. 
+Diving deeper, I found that out of the 906 toys and games purchased over Alexa, 759 were cancelled, whereas 84 were returned. 
 
 ![image](https://github.com/lindngo/amazon-shopping/assets/63205351/dc3b9294-31a1-432e-b0ce-a5a0a933e6cc)
 
 ![image](https://github.com/lindngo/amazon-shopping/assets/63205351/c87f86b4-91a4-4a83-b007-1128d4af8401)
+
+I believe that once the parents reviewed their order history/received an email confirmation of the purchase, they would realize that there were non-approved purchases. As a result, they would cancel those orders before they are shipped. 
 
 To solve these challenges, it would be beneficial for Amazon Alexa to consider the following solutions:
 
