@@ -20,7 +20,7 @@ https://github.com/lindngo/amazon-shopping/blob/main/alexa-data.csv
 - return_date: Date of return
 - cancel_time_stamp: Time of cancellation
 - binary_cancel_hour: 1 if order was cancelled; 0 if not 
-- binary_return: 1 if order was returned; 0 if not returned
+- binary_return: 1 if order was returned; 0 if not
 - binary_cancel_time: 1 if order was cancelled; 0 if not 
 
 ## Conclusion
