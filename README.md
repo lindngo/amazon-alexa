@@ -1,7 +1,7 @@
 # Amazon Alexa Shopping Data
 
 ## Overview
-For this project, I used SQL to analyze a demo dataset used as part of the product management course I was enrolled in. This dataset contained Amazon Alexa shopping data, and I wanted to draw insights on what category of products are typically bought on Alexa, number of products purchased, cancellation and return rates, and more.
+For this project, I used SQL to analyze a demo dataset, used as part of the product management course I was enrolled in. This dataset contains Amazon Alexa shopping data, and I wanted to draw insights on what category of products are typically bought on Alexa, number of products purchased, cancellation and return rates, and more.
 
 ## Dataset
 
@@ -30,7 +30,7 @@ When analyzing the Alexa ordering data, I found that the top product categories 
 
 I expected home and kitchen, grocery and gourmet food, and baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing more detail.
 
-However, I thought it was strange that toys and games were on this list. This is because to purchase toys and games, the customer must know specifically what product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to hypothesize that children are ordering toys and games over Alexa. 
+However, I thought it was strange that toys and games were on this list. This is because in order to purchase toys and games, the customer must know what specific product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to hypothesize that children are ordering toys and games over Alexa. 
 
 Next, I calculated the cancellation and return rates for each of the product categories. 
 
