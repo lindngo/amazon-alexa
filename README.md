@@ -28,7 +28,7 @@ When analyzing the Alexa ordering data, I found that the top product categories 
 
 ![image](https://github.com/lindngo/amazon-alexa/assets/63205351/348ccc7a-9561-474f-bb04-53381bc3fe2f)
 
-I expected home and kitchen, grocery and gourmet food, and baby products to be common orders over Alexa, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing more detail.
+I expected home and kitchen, grocery and gourmet food, and baby products to be common orders, because Alexa provides purchasing convenience for products needed frequently. For example, if a can opener breaks, the customer can easily say, “Hey Alexa, add a can opener to my shopping cart” and Alexa would understand without needing more detail.
 
 However, I thought it was strange that toys and games were on this list. This is because in order to purchase toys and games, the customer must know what specific product they want to tell Alexa to add to cart. For instance, a customer can't tell Alexa "to add a Nintendo Switch game to my cart" because there are hundreds of Nintendo Switch games. As a result, the customer must know the specifics of this purchase, like by saying "Alexa, add the Nintendo Switch Mario Party 8 game to my cart". This led to me to hypothesize that children are ordering toys and games over Alexa. 
 
