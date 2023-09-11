@@ -50,4 +50,4 @@ To solve these challenges, it would be beneficial for Amazon Alexa to consider t
 
 - Implement a two-step confirmation feature that prompts the user to approve of the purchase via mobile app or website.
 - Incorporate voice recognition in Alexa, so it can detect authorized users and allow them to purchase items.
-- Allow users to provide a verbal password to confirm purchase order.
+- Allow users to provide a verbal password or passphrase to confirm purchase order.
