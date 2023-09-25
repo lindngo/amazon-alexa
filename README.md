@@ -40,7 +40,7 @@ Next, I calculated the cancellation and return rates for each product category.
 
 As we can see from the tables above, the toys and games category rank highest in cancellation rate (29.78%) but has a low return rate (3.30%) compared to the other categories. Another element of consideration to my hypothesis is that these children are ordering without the consent of their parents. The parents would review their email later to discover an unapproved order made by their child or someone else in their household. At this moment, they would cancel before the product has been shipped.
 
-Looking at the cancelled orders, I noticed that the time of order was outside of school hours, specifically during the evening. This further supports my hypothesis that children are the ones placing these orders, as they are home at this time and have access to Alexa.
+Looking at the cancelled orders, I noticed that the time of order was outside of school hours, specifically during the evening. This further supports my hypothesis that children are the ones placing these orders, as they are home from school at this time and have access to Alexa.
 
 ![image](https://github.com/lindngo/amazon-alexa/assets/63205351/11c17cb3-6138-4b92-88ec-3e123461b1c1)
 
